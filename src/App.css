@@ -1,0 +1,43 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.app-dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navbar-light {
+  background: linear-gradient(90deg, rgba(55,0,255,1) 0%, rgba(183,0,255,1) 100%);
+  color: white;
+}
+
+.navbar-dark {
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(55,0,55,1) 100%);
+  color: white;
+}
+
+.theme-toggle {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.theme-toggle-light {
+  background-color: #ffce00;
+  color: #333;
+}
+
+.theme-toggle-dark {
+  background-color: #333;
+  color: #ffce00;
+}
